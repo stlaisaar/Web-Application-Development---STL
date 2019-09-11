@@ -76,16 +76,18 @@
     <section>
         <br>
         <h3>Form for adding additional courses:</h3>
-        Course name:<br>
-        <input type="text" name="coursename"><br>
-        Semester:<br>
-        <input type="radio" name="semester" value="1" checked> 1<br>
-        <input type="radio" name="semester" value="2"> 2<br>
-        <input type="radio" name="semester" value="3"> 3<br>
-        <input type="radio" name="semester" value="4"> 4<br>
-        Grade:<br>
-        <input type="number" name="grade"><br>
-        <input type="submit" value="Submit">
+        <form>
+            Course name:<br>
+            <input type="text" name="coursename"><br>
+            Semester:<br>
+            <input type="radio" name="semester" value="1" checked> 1<br>
+            <input type="radio" name="semester" value="2"> 2<br>
+            <input type="radio" name="semester" value="3"> 3<br>
+            <input type="radio" name="semester" value="4"> 4<br>
+            Grade:<br>
+            <input type="number" max="120" name="grade"><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
